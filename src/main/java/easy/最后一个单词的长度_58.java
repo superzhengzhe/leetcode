@@ -13,6 +13,11 @@ package easy;
  */
 public class 最后一个单词的长度_58 {
 
+    /**
+     * 做法：从最后开始遍历，先去掉空格，然后count++直到遇到空格，返回即可
+     * @param s
+     * @return
+     */
     public int lengthOfLastWord(String s) {
         int count = 0;
         s = s.trim();

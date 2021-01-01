@@ -23,6 +23,11 @@ import java.util.List;
  */
 public class 杨辉三角_118 {
 
+    /**
+     * 做法：for循环解决
+     * @param numRows
+     * @return
+     */    
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) {
             return new ArrayList<>();

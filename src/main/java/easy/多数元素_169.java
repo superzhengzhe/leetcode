@@ -48,9 +48,30 @@ public class 多数元素_169 {
      * @param nums
      * @return
      */
-    public int majorityElement(int[] nums) {
+    public int majorityElement1(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length/2];
+    }
+
+    /**
+     * 做法3：摩尔投票法
+     * @param nums
+     * @return
+     */
+    public int majorityElement(int[] nums) {
+        int res = nums[0];
+        int count = 1;
+        for (int i = 1;i < nums.length;i++) {
+            if (nums[i] == res) {
+                count++;
+            } else {
+                if (--count == 0) {
+                    res = nums[i];
+                    count++;
+                }
+            }
+        }
+        return res;
     }
 
     public static void main(String[] args) {

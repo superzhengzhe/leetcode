@@ -7,10 +7,10 @@ package 剑指offer;
  * 比如，输入字符串"abcdefg"和数字2，该函数将返回左旋转两位得到的结果"cdefgab"。
  * 示例 1：
  * 输入: s = "abcdefg", k = 2
- * 输出: "cdefgab"
+ * 输出:"cdefgab"
  * 示例 2：
  * 输入: s = "lrloseumgh", k = 6
- * 输出: "umghlrlose"
+ * 输出:"umghlrlose"
  * 限制：
  * 1 <= k < s.length <= 10000
  * @author zz

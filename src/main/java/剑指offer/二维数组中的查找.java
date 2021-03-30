@@ -16,8 +16,8 @@ package 剑指offer;
  *   [10, 13, 14, 17, 24],
  *   [18, 21, 23, 26, 30]
  * ]
- * 给定 target = 5，返回 true。
- * 给定 target = 20，返回 false。
+ * 给定 target=5，返回true。
+ * 给定target=20，返回false。
  * 限制：
  * 0 <= n <= 1000
  * 0 <= m <= 1000

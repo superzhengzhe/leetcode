@@ -1,4 +1,4 @@
-package easy;
+package 链表;
 
 import base.ListNode;
 

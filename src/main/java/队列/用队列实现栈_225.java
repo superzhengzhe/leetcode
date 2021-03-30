@@ -1,4 +1,4 @@
-package easy;
+package 队列;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

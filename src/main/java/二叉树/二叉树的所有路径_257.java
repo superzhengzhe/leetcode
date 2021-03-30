@@ -1,9 +1,8 @@
-package easy;
+package 二叉树;
 
 import base.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * 二叉树的所有路径

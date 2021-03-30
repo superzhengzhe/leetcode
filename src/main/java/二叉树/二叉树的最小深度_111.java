@@ -1,4 +1,4 @@
-package easy;
+package 二叉树;
 
 import base.TreeNode;
 

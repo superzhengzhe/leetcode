@@ -1,4 +1,4 @@
-package easy;
+package 字符串.简单;
 
 /**
  * 最后一个单词的长度

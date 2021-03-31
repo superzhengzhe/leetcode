@@ -1,4 +1,4 @@
-package easy;
+package 字符串.简单;
 
 import java.util.HashMap;
 import java.util.HashSet;
